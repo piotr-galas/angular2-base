@@ -1,0 +1,27 @@
+{
+  "name": "AngularBase",
+  "version": "0.0.1",
+  "description": "A base project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "live-server",
+    "typescript": "tsc index.ts --watch --sourceMap"
+  },
+  "keywords": [
+    "angular",
+    "base",
+    "project"
+  ],
+  "author": "Daniel Schmitz",
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.7",
+    "systemjs": "^0.19.11",
+    "zone.js": "^0.6.12"
+  }
+}
