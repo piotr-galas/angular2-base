@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm test",
     "start": "live-server",
-    "typescript": "tsc index.ts --watch --sourceMap"
+    "typescript": "tsc app/boot.ts --watch --sourceMap"
   },
   "keywords": [
     "angular",
