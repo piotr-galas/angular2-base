@@ -4,9 +4,8 @@
   "description": "A base project",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
     "start": "live-server",
-    "typescript": "tsc app/boot.ts --watch --sourceMap"
+    "typescript": "tsc --watch --sourceMap"
   },
   "keywords": [
     "angular",
@@ -17,7 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "angular2": "^2.0.0-beta.0",
-    "es6-promise": "^3.0.2",
     "es6-shim": "^0.35.0",
     "reflect-metadata": "^0.1.2",
     "rxjs": "^5.0.0-beta.6",
